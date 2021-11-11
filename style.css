@@ -1,0 +1,119 @@
+/* 단위 */
+/* 1. 1vw = 3.6px */
+/* 2. 1vh = 8px */
+
+/* 기본 셋팅 */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hide {
+    display: none !important;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(120deg, rgb(226, 196, 250), rgb(183, 118, 245));
+    background-repeat: no-repeat;
+    font-family:'Bahnschrift', '배달의민족 한나는 열한살', Courier, monospace;
+}
+
+#inputSection {
+    text-align: center;
+}
+
+#main {
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-top: 50vh;
+}
+
+#main::placeholder {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    border-width: 100%;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(175, 159, 194);
+    color: white;
+    height: 6vh;
+    font-size: 2em;
+}
+
+#account {
+    margin-top: 1vh;
+    margin-left: 3%;
+}
+
+#today {
+    margin-top: 0.5vh;
+    margin-right: 3%;
+    font-size: large;
+}
+
+.fa-cloud {
+    font-size: 3vh;
+}
+
+#weather {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 9px;
+}
+
+.tempreture {
+    font-size: medium;
+    line-height: 1.2;
+}
+
+#tictok {
+    text-align: center;
+    font-size: 6em;
+    color: white;
+    margin-top: 30vh;
+    line-height: 1;
+}
+
+#hello {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+#todoWrite {
+    text-align: center;
+}
+
+.WriteSheet {
+    margin-top: 3vh;
+    text-align: center;
+    font-size: 6vw;
+    color: white;
+}
+
+.underInput {
+    margin-top: 6%;
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid white;
+    background:none;
+    width: 66vw;
+}
+
+#quotes {
+    text-align: center;
+    margin-top: 63%;
+    color:white;
+    font-size: 18px;
+}

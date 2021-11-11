@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+    crossorigin="anonymous">
+    <title>21.11.03</title>
+</head>
+<body>
+    <!-- login 전 메인 -->
+    <form id="inputSection">
+        <input type="text" size="27" required maxlength="12" placeholder="Let me know your name" id="main">
+        <button class="hide" id="mainbtn" type="submit">submit</button>
+    </form>
+    <!-- login 후 헤더 -->
+    <header id="header" class="hide">
+        <div id="account">
+            <i class="fas fa-user-circle"></i>
+        </div>
+        <div id="today">
+            <div id="weather">
+                <i class="fas fa-cloud"></i>
+                <span class="tempreture"></span>
+            </div>
+            <!-- tempreture -->
+        </div>
+    </header>
+    <!-- login 후 중앙 메세지 섹션 -->
+    <section id="tictok" class="hide">
+        <div id="Time"></div>
+    </section>
+    <div id="hello" class="hide"></div>
+    <form id="todoWrite" class="hide">
+        <div class="WriteSheet">What is your main focus?</div>
+        <input class="underInput"></input>
+        <button type="submit" class="hide" class="plusBtn">
+            <i class="fas fa-plus-square"></i>
+        </button>
+    </form>
+    <div id="todocontainer">
+        <ul id="todolist">
+            <!-- script function -->
+        </ul>
+    </div>
+
+    <div id="quotes"></div>
+
+<script src="time.js"></script>
+<script src="greetToMain.js"></script>
+<script src="weather.js"></script>
+<script src="quote.js"></script>
+</body>
+</html>
